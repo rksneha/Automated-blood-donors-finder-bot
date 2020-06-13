@@ -8,6 +8,7 @@ import requests
 
 #driver.find_element_by_name("q").send_keys("Automation Step by Step")
 #driver.find_element_by_name("btnK").send_keys(Keys.ENTER)
+#to get current user loc, we need their ip address information.
 res= requests.get("https://ipinfo.io/")
 data=res.json()
 print("Your location")
